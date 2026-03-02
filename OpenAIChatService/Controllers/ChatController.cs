@@ -24,10 +24,4 @@ namespace OpenAIChatService.Controllers
             return Ok(new { answer });
         }
     }
-
-    public class ChatRequest
-    {
-        public string Prompt { get; set; }
-    }
-
 }
