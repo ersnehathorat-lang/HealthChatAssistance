@@ -1,0 +1,6 @@
+@OpenAIChatService_HostAddress = http://localhost:5230
+
+GET {{OpenAIChatService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
